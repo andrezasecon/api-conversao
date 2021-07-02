@@ -48,6 +48,6 @@ app.put('/stress/:elemento/tempostress/:tempoStress/intervalo/:intervalo/ciclos/
     res.send("OK");
 });
 
-app.listen(8080, () => {
-    console.log("Servidor rodando na porta 8080");
+app.listen(8081, () => {
+    console.log("Servidor rodando na porta 8081");
 });
